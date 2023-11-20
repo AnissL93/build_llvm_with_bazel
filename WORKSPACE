@@ -22,7 +22,7 @@ http_archive(
 new_local_repository(
     name = "llvm-raw",
     build_file_content = "# empty",
-    path = "[llvm-path]",
+    path = "/Users/hyl/Projects/llvm-project",
 )
 
 load("@llvm-raw//utils/bazel:configure.bzl", "llvm_configure")
