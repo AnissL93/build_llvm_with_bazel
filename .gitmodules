@@ -1,0 +1,3 @@
+[submodule "third_party/bazel_tools"]
+	path = third_party/bazel_tools
+	url = https://github.com/AnissL93/bazel_tools.git
